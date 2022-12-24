@@ -465,4 +465,3 @@ let drag_and_drop = () => {
   }
 };
 drag_and_drop();
-alert("Hello world")
