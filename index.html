@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/media.css" />
+    <link rel="icon" href="./Images/school-sub.png" />
+    <title>Kemenger Mektebi</title>
+  </head>
+  <body>
+    <div class="form-box d-none">
+      <div class="form-1">
+        <h2 class="form-text-1">
+          Заполните <span><label for="name">форму</label></span> <br />
+          и мы обязательно <br />
+          свяжемся с Вами.
+        </h2>
+        <input
+          type="text"
+          class="input-0"
+          id="name"
+          placeholder="Ваше имя..."
+        /><br />
+        <input
+          type="text"
+          class="input-0"
+          id="name"
+          placeholder="Ваш телефон..."
+        /><br />
+        <textarea
+          cols="30"
+          rows="10"
+          class="txt-ar"
+          placeholder="Комментарий..."
+        ></textarea>
+        <button class="form-btn">Оставить заявку</button>
+      </div>
+    </div>
+    <div class="form-2-box d-none black-anim">
+      <div class="form-2">
+        <img src="./Images/checkbox.png" class="checkbox" />
+        <h2 class="form-title-1"><span>Спасибо</span> за заявку</h2>
+        <h2 class="form-title-2">
+          В ближайшее время мы <span>свяжемся</span> с Вами
+        </h2>
+      </div>
+    </div>
+    <div class="menu d-none">
+      <img src="./Images/menu-icon.png" class="close-menu" title="Close menu">
+      <div class="menu-content">
+        <a href="#" class="ml-1">О нас</a>
+        <hr>
+        <a href="#" class="ml-2">Каталог</a>
+        <hr>
+        <a href="#" class="ml-3">Сертификаты</a>
+        <hr>
+        <a href="#" class="ml-4">Отзывы</a>
+        <hr>
+        <a href="#" class="ml-5">Контакты</a>
+      </div>
+    </div>
+    <div class="sorry-box d-none">
+      <div class="sorry-content">
+        <img src="./Images/sad-icon.png">
+        <h1>404</h1>
+        <p>Переверните устройство</p>
+      </div>
+    </div>
+    <main>
+      <div class="header">
+        <div class="progress-container">
+          <div class="progress-bar" id="myBar"></div>
+        </div>
+      </div>
+      <img src="./Images/boy.png" class="bg-1" />
+      <div class="container">
+        <div class="section1">
+          <header>
+            <div class="header-left">
+              <img src="./Images/logo2.png" class="logo" />
+              <div class="links-wrapper">
+                <a href="#" class="link">О нас</a>
+                <a href="#" class="link">Каталог</a>
+                <a href="#" class="link">Сертификаты</a>
+                <a href="#" class="link">Отзывы</a>
+                <a href="#" class="link">Контакты</a>
+              </div>
+            </div>
+            <div class="header-right">
+              <div class="night-mode night-left">
+                <img src="./Images/moon-icon.png" />
+                <img src="./Images/sun-icon.png" />
+                <div class="night-button left-pos"></div>
+              </div>
+              <a href="tel:+8 (771) 145-98-26"
+                ><img src="./Images/call-icon.png" class="call-icon"
+              /></a>
+              <p>8 (771) 145-98-26</p>
+              <img src="./Images/menu-icon.png" class="menu-btn" title="Open-menu">
+            </div>
+          </header>
+          <h1 class="main-text">
+            <span>KEMENGER MEKTEBI</span> - центр <br />
+            интеллектуального развития
+          </h1>
+          <p class="info-text">
+            Обучение происходит на казахском и русском <br />
+            языках. При записи на два или более курсов <br />
+            предусмотрена скидка. Запишитесь на <br />
+            бесплатный пробный урок.
+          </p>
+          <button class="main-btn">Оставить заявку</button>
+        </div>
+        <div class="section2">
+          <div class="first2">
+            <p>
+              В нашем центре работают <br />
+              профессиональные педагоги любящие <br />
+              детей и преданные своему делу. Мы <br />
+              помогаем детям совершенствовать свои <br />
+              интеллекуальные способности чтобы <br />
+              они могли познавать мир и делать его <br />
+              более красивым и добрым.
+            </p>
+            <div class="image2">
+              <img src="./Images/photo-1.png" class="drag-photo-1" draggable="true"/>
+              <div></div>
+            </div>
+          </div>
+          <div class="second2">
+            <div class="image21">
+              <img src="./Images/photo-2.png" class="drag-photo-2" draggable="true"/>
+              <div></div>
+            </div>
+            <p>
+              Наши ученики показывают результат <br />
+              уже с первого месяца работы, мы <br />
+              поддерживаем в нашем центре теплую и <br />
+              дружескую атмосферу. Побывав у нас <br />
+              детям обязательно захочется вернуться <br />
+              сюда снова. Развивайтесь вместе с нами!
+            </p>
+          </div>
+        </div>
+        <div class="section3">
+          <div class="top3">
+            <div class="top-left">
+              <div class="top-left-top">
+                <img src="./Images/math-sub.png" />
+                <p>Ментальная арифметика</p>
+              </div>
+              <div class="top-left-center">
+                <img src="./Images/reading-sub.png" />
+                <p>Скорочтение</p>
+              </div>
+              <div class="top-left-bottom">
+                <img src="./Images/school-sub.png" />
+                <p>Подготовка к школе</p>
+              </div>
+            </div>
+            <div class="top-center">
+              <div class="top-center-top">
+                <img src="./Images/teacher.png" />
+                <p>
+                  Мы развиваем детей с 5 до 16 лет по следующим направлениям
+                </p>
+              </div>
+              <div class="top-center-bottom">
+                <img src="./Images/group-sub.png" />
+                <p>Группа продленного дня</p>
+              </div>
+            </div>
+            <div class="top-right">
+              <div class="top-right-top">
+                <img src="./Images/writing-sub.png" />
+                <p>Каллиграфия</p>
+              </div>
+              <div class="top-right-center">
+                <img src="./Images/english-sub.png" />
+                <p>Английский язык</p>
+              </div>
+              <div class="top-right-bottom">
+                <img src="./Images/memory-sub.png" />
+                <p>Супер память</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section4">
+          <img src="./Images/circle-3.png" alt="" class="sec4-bg-1" />
+          <img src="./Images/circle-4.png" alt="" class="sec4-bg-2" />
+          <h2 class="main4-text">Каталог</h2>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide slider-1">
+                <div class="slider-top slide-1">
+                  <h3>Подготовка к школе</h3>
+                </div>
+                <div class="slider-main">
+                  <h4 class="price">30 000 тг</h4>
+                  <p class="years">4-6 лет</p>
+                  <p class="time">3 занятия в неделю по 3 ч.</p>
+                  <div class="subjects-wrapper">
+                    <p class="subject">Обучение чтению</p>
+                    <p class="subject">Письмо</p>
+                    <p class="subject">Математика</p>
+                    <p class="subject">Английский язык</p>
+                    <div class="none-sub none1 d-none">
+                      <p class="subject">Развитие речи</p>
+                      <p class="subject">Концентрация внимания</p>
+                      <p class="subject">Усвоение изучаемого материала</p>
+                      <p class="subject">Различные техники запоминания</p>
+                      <p class="subject">
+                        Развитие логико-<br />математического<br />мышления
+                      </p>
+                    </div>
+                    <a href="#" class="other-info others-1">Подробнее...</a>
+                  </div>
+                  <button class="slider-btn btn-1">Выбрать</button>
+                </div>
+              </div>
+              <div class="swiper-slide slider-1">
+                <div class="slider-top slide-2"><h3>Скорочтение</h3></div>
+                <div class="slider-main">
+                  <h4 class="price">27 000 тг</h4>
+                  <p class="years">6-15 лет</p>
+                  <p class="time">3 занятия в неделю по 1 ч.</p>
+                  <div class="subjects-wrapper">
+                    <p class="subject">Увеличение скорости чтения</p>
+                    <p class="subject">Артикуляция</p>
+                    <p class="subject">Развитие речи</p>
+                    <p class="subject">Развитие внимания</p>
+                    <div class="none-sub none2 d-none">
+                      <p class="subject">Увеличение поля зрения</p>
+                      <p class="subject">Увеличение словарного запаса</p>
+                      <p class="subject">Понимание прочитанного</p>
+                      <p class="subject">Пересказ</p>
+                      <p class="subject">Различные техники понимания</p>
+                      <p class="subject">
+                        Пробный урок и диагностика БЕСПЛАТНО
+                      </p>
+                    </div>
+                    <a href="#" class="other-info others-2">Подробнее...</a>
+                  </div>
+                  <button class="slider-btn btn-2">Выбрать</button>
+                </div>
+              </div>
+              <div class="swiper-slide slider-1">
+                <div class="slider-top slide-3">
+                  <h3>Ментальная арифметика</h3>
+                </div>
+                <div class="slider-main">
+                  <h4 class="price price-3">20 000 тг</h4>
+                  <p class="time time-3">2 занятия в неделю по 1 ч.</p>
+                  <div class="subjects-wrapper">
+                    <p class="subject">Быстрый счет</p>
+                    <p class="subject">Развитие высокой концентрации</p>
+                    <p class="subject">Увеличесние поля зрения</p>
+                    <p class="subject">Фотографическая память</p>
+                    <div class="none-sub none3 d-none">
+                      <p class="subject">Пробный урок БЕСПЛАТНО</p>
+                      <p class="subject">Обучающая платформа в ПОДАРОК</p>
+                    </div>
+                    <a href="#" class="other-info others-3">Подробнее...</a>
+                  </div>
+                  <button class="slider-btn btn-3">Выбрать</button>
+                </div>
+              </div>
+              <div class="swiper-slide slider-1">
+                <div class="slider-top slide-4"><h3>Каллиграфия</h3></div>
+                <div class="slider-main">
+                  <h4 class="price price-3">24 000 тг</h4>
+                  <p class="time time-3">3 занятия в неделю по 1 ч.</p>
+                  <div class="subjects-wrapper">
+                    <p class="subject">Развитие памяти</p>
+                    <p class="subject">Восприятие пространства</p>
+                    <p class="subject">Прокачивание мелкой моторики</p>
+                    <p class="subject">Основы грамотного письма</p>
+                    <div class="none-sub none4 d-none">
+                      <p class="subject">
+                        Развитие физической выносливости и усидчивости
+                      </p>
+                      <p class="subject">
+                        Умение писать диктанты без графических и орфографических
+                        ошибок
+                      </p>
+                    </div>
+                    <a href="#" class="other-info others-4">Подробнее...</a>
+                  </div>
+                  <button class="slider-btn btn-4">Выбрать</button>
+                </div>
+              </div>
+              <div class="swiper-slide slider-1">
+                <div class="slider-top slide-5"><h3>Английский язык</h3></div>
+                <div class="slider-main">
+                  <h4 class="price price-3">18 000 тг</h4>
+                  <p class="time time-3">2 занятия в неделю по 1,5 ч.</p>
+                  <div class="subjects-wrapper">
+                    <p class="subject">Чтение по правилам</p>
+                    <p class="subject">Знание 500 новых слов</p>
+                    <p class="subject">
+                      Самостоятельное выполнение домашнего задания
+                    </p>
+                  </div>
+                  <button class="slider-btn btn-5">Выбрать</button>
+                </div>
+              </div>
+              <div class="swiper-slide slider-1">
+                <div class="slider-top slide-6">
+                  <h3>Группа продленного дня</h3>
+                </div>
+                <div class="slider-main">
+                  <h4 class="price">35 000 тг</h4>
+                  <p class="time time-6">
+                    5 раз в неделю <br />
+                    1 смена с 9:00 по 12:00 <br />
+                    2 смена с 14:00 по 17:00
+                  </p>
+                  <div class="subjects-wrapper">
+                    <p class="subject">Подготовка к СОР, СОЧ</p>
+                    <p class="subject">Проработка пробелов в знаниях</p>
+                    <p class="subject">Индивидуальный подход</p>
+                    <p class="subject">Выявление сильных сторон ребенка</p>
+                    <div class="none-sub none6 d-none">
+                      <p class="subject">
+                        Профессиональная помощь в подготовке домашних заданий
+                      </p>
+                      <p class="subject">
+                        Дополнительные образовательные дисциплины
+                      </p>
+                    </div>
+                    <a href="#" class="other-info others-6">Подробнее...</a>
+                  </div>
+                  <button class="slider-btn btn-6">Выбрать</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-prev prev-btn"></div>
+            <div class="swiper-button-next next-btn"></div>
+          </div>
+        </div>
+        <div class="for-cert-1 for-cert d-none">
+          <img src="./Images/certificate-1.png" class="cert" draggable="true"/>
+        </div>
+        <div class="for-cert-2 for-cert d-none">
+          <img src="./Images/certificate-2.png" class="cert" draggable="true"/>
+        </div>
+        <div class="for-cert-3 for-cert d-none">
+          <img src="./Images/certificate-3.png" class="cert" draggable="true"/>
+        </div>
+        <div class="for-cert-4 for-cert d-none">
+          <img src="./Images/certificate-4.png" class="cert" draggable="true"/>
+        </div>
+        <div class="section5">
+          <div class="vector-out">
+            <div class="vector-in">
+              <img src="./Images/vector-for-pic-1.png" class="vec-1" />
+              <img src="./Images/vector-for-pic-2.png" class="vec-2" />
+              <img src="./Images/vector-for-pic-3.png" class="vec-3" />
+            </div>
+          </div>
+          <img src="./Images/circle-5.png" class="bg5-img" />
+          <h2 class="certificates">Наши сертификаты</h2>
+          <div class="certificate-wrapper">
+            <img src="./Images/certificate-1.png" class="cert cert-1" draggable="true"/>
+            <img src="./Images/certificate-2.png" class="cert cert-2" draggable="true"/>
+            <img src="./Images/certificate-3.png" class="cert cert-3" draggable="true"/>
+            <img src="./Images/certificate-4.png" class="cert cert-4" draggable="true"/>
+          </div>
+          <h2 class="certificates">Отзывы</h2>
+          <div class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide s5-slide">
+                <div class="s5-slide-top">
+                  <img src="./Images/person-1.png" />
+                  <p>Malika Fazlieva</p>
+                </div>
+                <p class="s5-main-text">
+                  Маған ұнаған жері білімді жақсы береді. Ұлымның қатынап
+                  жүргеніне 1 ай болмады бірақ нәтиже бар. Мұғалімдеріде өте
+                  сыпайы әрі білімді.
+                </p>
+              </div>
+              <div class="swiper-slide s5-slide">
+                <div class="s5-slide-top">
+                  <img src="./Images/person-2.png" />
+                  <p>Aigul Lepessova</p>
+                </div>
+                <p class="s5-main-text">
+                  Отлично все нравится! Внучка уже 6 месяц занимается, довольны
+                </p>
+              </div>
+              <div class="swiper-slide s5-slide">
+                <div class="s5-slide-top">
+                  <img src="./Images/person-3.png" />
+                  <p>Malika Fazlieva</p>
+                </div>
+                <p class="s5-main-text">
+                  Маған ұнаған жері білімді жақсы береді. Ұлымның қатынап
+                  жүргеніне 1 ай болмады бірақ нәтиже бар. Мұғалімдеріде өте
+                  сыпайы әрі білімді.
+                </p>
+              </div>
+              <div class="swiper-slide s5-slide">
+                <div class="s5-slide-top">
+                  <img src="./Images/person-4.png" />
+                  <p>Анара Баймаганбетова</p>
+                </div>
+                <p class="s5-main-text">
+                  Искренне рекомендую, детям дают отличные знания и
+                  безопасность. Профессионалы своего дела. Удачи вам и успехов
+                  желаю.
+                </p>
+              </div>
+              <div class="swiper-slide s5-slide">
+                <div class="s5-slide-top">
+                  <img src="./Images/person-5.png" />
+                  <p>Gulzhan Kossantayeva</p>
+                </div>
+                <p class="s5-main-text">
+                  Комфорная обстановака, распологает к учебе, учителя
+                  доброжелательные,но требовательные! То, что надо! Советую
+                  100%.
+                </p>
+              </div>
+              <div class="swiper-slide s5-slide">
+                <div class="s5-slide-top">
+                  <img src="./Images/person-6.png" />
+                  <p>Енлик Серик</p>
+                </div>
+                <p class="s5-main-text">
+                  Айжан Талгатовна өз ісінің маманы. Менің қызымның оқу
+                  үлгеріміне көп ықпал тигіздіңіз. Кемеңгер мектебі нағыз
+                  кеменгер бала тәлімін береді!
+                </p>
+              </div>
+            </div>
+            <div class="swiper-button-prev prev-btn p-btn"></div>
+            <div class="swiper-button-next next-btn n-btn"></div>
+          </div>
+        </div>
+        <div class="section6">
+          <div class="sec6-top">
+            <div class="sec-top-left">
+              <img src="./Images/circle-6.png" class="circle-6" />
+              <h2 class="sec6-title">Наши контакты</h2>
+              <h3 class="info-title-text">
+                Запишитесь на бесплатный пробный урок по номеру:
+              </h3>
+              <p class="sec6-info">8 (771) 145-98-26</p>
+              <h3 class="info-title-text">Адрес:</h3>
+              <p class="sec6-info">
+                г. Нур-Султан, ул. К. Аманжолова, 28, офис 14
+              </p>
+              <h3 class="info-title-text">График работы:</h3>
+              <p class="sec6-info">
+                Пн-Пт - 9:00-19:00; <br />
+                Сб - 9:00-17:00; <br />
+                Вс - выходной
+              </p>
+              <h3 class="info-title-text">E-mail:</h3>
+              <p class="sec6-info">@kemenger.mektebi</p>
+            </div>
+            <img src="./Images/boy-2.png" class="sec-top-right" />
+          </div>
+          <div class="bg-image">
+            <img src="./Images/circle-1.png" class="background-1" />
+            <img src="./Images/circle-2.png" class="background-2" />
+          </div>
+          <iframe
+            class="maps"
+            src="https://yandex.ru/map-widget/v1/-/CCUnyNxddD"
+            width="60%"
+            height="500px"
+            style="border: 20px solid black"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <img src="./Images/logo2.png" class="footer-logo-1" />
+        <div class="footer-links-wrapper">
+          <a href="#" class="footer-link">О нас</a>
+          <a href="#" class="footer-link">Каталог</a>
+          <a href="#" class="footer-link">Сертификаты</a>
+          <a href="#" class="footer-link">Отзывы</a>
+          <a href="#" class="footer-link">Контакты</a>
+        </div>
+        <img src="./Images/logo3.png" class="footer-logo-2" />
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./JS/script.js"></script>
+  </body>
+</html>
